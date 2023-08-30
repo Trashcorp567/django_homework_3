@@ -1,0 +1,48 @@
+[
+    {
+        "model": "homework.category",
+        "pk": 1,
+        "fields": {
+            "name": "Фото и видео",
+            "description": "Объективы"
+        }
+    },
+    {
+        "model": "homework.category",
+        "pk": 2,
+        "fields": {
+            "name": "Техника",
+            "description": "Электронная техника"
+        }
+    },
+    {
+        "model": "homework.product",
+        "pk": 1,
+        "fields": {
+            "name": "Объектив Canon EF50mm",
+            "description": "Для фото",
+            "category": 1,
+            "price": 29640
+        }
+    },
+    {
+        "model": "homework.product",
+        "pk": 2,
+        "fields": {
+            "name": "Ноутбук Acer Aspire",
+            "description": "Мощный ноутбук с быстрым процессором и большим объемом памяти.",
+            "category": 2,
+            "price": 29999
+        }
+    },
+    {
+        "model": "homework.product",
+        "pk": 3,
+        "fields": {
+            "name": "Ноутбук HONOR",
+            "description": "В основе устройства лежит двухъядерный процессор Intel Core i5",
+            "category": 2,
+            "price": 49999
+        }
+    }
+]
